@@ -1,13 +1,13 @@
 
 import React from 'react';
 
-function Menu() {
+function Footer() {
   return (
-    <div class="hero">
+    <div className="hero">
         <h1>Personal Budget</h1>
         <h2 aria-level="3">A personal-budget management app</h2>
     </div>
   );
 }
 
-export default Menu;
+export default Footer;
