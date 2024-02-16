@@ -50,13 +50,6 @@ function D3PieChart() {
 					.attr("fill", (d) => color(d.value))
 					.style("opacity", "0.7");
 
-					svg
-					.selectAll()
-					.data(formattedData)
-					.join("text")
-					.text(d => dataSource.value[i])
-					.attr("transform", (d) => `translate(${arc.centroid(d)})`)
-					.style("text-anchor", "middle");
     });
 		
   });
